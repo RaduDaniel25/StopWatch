@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>StopWatch</title>
+  </head>
+  <body class="bg-light">
+    <header>
+      <h1 class="text-center mt-5">StopWatch</h1>
+    </header>
+    <section>
+      <p class="lead my-3 text-center">
+        This is a functional <strong>stopwatch</strong>
+      </p>
+      <div class="container text-center">
+        <span class="minutes fs-2">00</span> <span class="fs-2">:</span>
+        <span class="seconds fs-2">00</span><span class="fs-2">:</span>
+        <span class="miliseconds fs-2">00</span>
+      </div>
+      <div class="container my-3">
+        <div class="row align-items-center mx-5">
+          <button type="button" class="btn btn-primary col mx-2 btn-start">
+            start
+          </button>
+          <button type="button" class="btn btn-danger col mx-2 btn-stop">
+            stop
+          </button>
+          <button type="button" class="btn btn-dark col mx-2 btn-reset">
+            reset
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="data text-center fs-3"></div>
+      </div>
+    </section>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
